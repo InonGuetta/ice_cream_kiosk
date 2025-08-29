@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import IceCreamCard from './components/IceCreamCard.tsx';
 import './App.css'
+import Header from './components/Header.tsx';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +12,9 @@ function App() {
 
   return (
     <>
+      <header>
+        <Header/>
+      </header>
       <main>
         {(() => {
           const iceCreamCards = [];
