@@ -17,7 +17,6 @@ export default function IceCreamCard(props: {
             <div className="card">
                 <h2>{props.nameIceCream}</h2>
                 <img src={props.urlImg} alt="" />
-
                 <section className="grid_design">
                     <button
                         className={stock === 0 ? "sold_out_bitton" : "to_take"}
