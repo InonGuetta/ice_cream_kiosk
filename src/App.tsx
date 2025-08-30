@@ -6,8 +6,11 @@ import Cart from './components/Cart.tsx';
 
 function App() {
   const [cart, setCart] = useState({ count: 0, price: 0 });
+
+
   const taste = ["Vanilla", "Chocolate", "Lemon", "Orange", "Gum"];
-  const images = ["../src/assets/pictures/vanilla.jpg", "../src/assets/pictures/Chocolate.jpg", "../src/assets/pictures/Lemon.webp", "../src/assets/pictures/orange2.jpg", "../src/assets/pictures/gum.webp"];
+  // const images = ["../src/assets/pictures/vanilla.jpg", "../src/assets/pictures/Chocolate.jpg", "../src/assets/pictures/Lemon.webp", "../src/assets/pictures/orange2.jpg", "../src/assets/pictures/gum.webp"];
+  const images = ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgQRsDOA31lHD3K8QKo-_WPt8lJikShx_Spw&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYpjFvFAPz6AEugjS2teKD976mJm7du6q4lw&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2mZkJ6RYeeBtdceJT4EbI_O5unqNIp6HpJw&s", "https://images.contentstack.io/v3/assets/bltcedd8dbd5891265b/bltbe582204aeeff242/66707b1b10fde34db2a4a164/facts-about-oranges-1200x675-1.jpg?q=70&width=3840&auto=webp", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7Bl7Ubt_A99D2doHf2-rJ8xzp3ncsWdhwgA&s"];
   const counts = [10, 17, 30, 8, 25];
   const price = [12, 8, 7, 6, 9];
 
