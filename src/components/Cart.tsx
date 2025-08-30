@@ -10,5 +10,4 @@ export default function Cart(props: { count: number, price: number }) {
             </div>
         </>
     )
-
 }
