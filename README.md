@@ -26,20 +26,36 @@ npm run dev
 Then open the local development server (usually at http://localhost:5173/).
 
 Project Structure
-perl
-Copy code
-ice_cream_kiosk/
-├── public/                # Static assets served directly
-├── src/                   # React + TypeScript source files
-├── index.html             # Application entry point
-├── package.json           # Project metadata & scripts
-├── tsconfig.json          # TypeScript config
-├── tsconfig.app.json      # TS config specific to the app
-├── tsconfig.node.json     # TS config for Node tools
-├── vite.config.ts         # Vite configuration
-├── eslint.config.js       # ESLint configuration
-├── package-lock.json      # Auto-generated lock file
-└── .gitignore             # Files/directories to ignore in Git
+ice_cream_kiosk
+│   .gitignore
+│   eslint.config.js
+│   index.html
+│   package-lock.json
+│   package.json
+│   README.md
+│   tsconfig.app.json
+│   tsconfig.json
+│   tsconfig.node.json
+│   vite.config.ts
+│
+├───public
+│
+└───src
+    │   App.css
+    │   App.tsx
+    │   main.tsx
+    │   vite-env.d.ts
+    │
+    ├───components
+    │       Cart.tsx
+    │       Header.tsx
+    │       IceCreamCard.tsx
+    │
+    └───style
+            cart.css
+            header.css
+            ice_cream_card.css
+
 What’s Included
 
 
@@ -49,6 +65,4 @@ ESLint setup for code quality, with options to extend to stricter or type-aware 
 github.com
 
 Notes
-Currently, there’s no UI components like ice cream items or shopping cart—only the basic scaffold is available.
-
 This setup is ready for further development: adding components, state management, styling, or API integration.
