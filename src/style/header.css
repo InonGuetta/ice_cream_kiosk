@@ -1,8 +1,8 @@
 .header {
-    font-size: xx-large;
-    font-family: 'Frank Ruhl Libre', serif;
-    display: flex;
-    justify-content: center;
-  background: linear-gradient(90deg, #a1c4fd, #c2e9fb);
-    margin-bottom: 5rem;
+  font-size: xx-large;
+  font-family: 'Frank Ruhl Libre', serif;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(90deg, #a1c4fd, #c2e9fb, #c2e9fb, #f0f7f9);
+  margin-bottom: 5rem;
 }
